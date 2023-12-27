@@ -80,6 +80,7 @@ class HrTimesheetReport(models.TransientModel):
             ('hh_mm', 'Hours, minutes'),
             ('hh_mm_ss', 'Hours, minutes, seconds'),
             ('decimal', 'Decimal'),
+            ('days', 'Days')
         ]
 
     @api.model
@@ -677,6 +678,8 @@ class Report(models.AbstractModel):
             return '[h]:mm'
         elif report.time_format == 'hh_mm_ss':
             return '[h]:mm:ss'
+        elif report.time_format == 'days':
+            return '0.00'
 
     @api.model
     def _convert_amount_num_format(self, report, amount):
