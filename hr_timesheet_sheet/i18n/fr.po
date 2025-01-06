@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-07 08:56+0000\n"
-"PO-Revision-Date: 2025-01-06 12:06+0000\n"
+"PO-Revision-Date: 2025-01-06 16:06+0000\n"
 "Last-Translator: hugues de keyzer <odoo@hugues.info>\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "Language: fr\n"
@@ -1087,7 +1087,7 @@ msgid ""
 msgstr ""
 "Vous ne pouvez pas créer une feuille de temps d'une société différente à "
 "celle de la feuille de temps :\n"
-" -%(sheet_name)s de %(sheet_company)s\n"
+" - %(sheet_name)s de %(sheet_company)s\n"
 " - %(name)s de %(company)s"
 
 #. module: hr_timesheet_sheet
@@ -1129,8 +1129,8 @@ msgstr ""
 #, python-format
 msgid "You cannot modify an entry in a confirmed timesheet sheet: %(names)s"
 msgstr ""
-"Vous ne pouvez pas modifier une entrée dans une feuille de temps confirmée: "
-"%(names)"
+"Vous ne pouvez pas modifier une entrée dans une feuille de temps confirmée : "
+"%(names)s"
 
 #. module: hr_timesheet_sheet
 #: model_terms:ir.actions.act_window,help:hr_timesheet_sheet.act_hr_timesheet_line_to_submit_my
